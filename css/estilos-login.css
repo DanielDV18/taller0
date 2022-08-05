@@ -16,27 +16,54 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
-}
-body{
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-}
-h1,h2,h3,h4,h5{
-    font-family: 'Marcellus', serif;
-}
-.container{
+    background-image: url('../img/bg-login.png');
+}body{
     display: flex;
-    height: 500px;
-    width: 800px;
-    border: 1px solid #000;
-    margin: auto;
-    margin-top: 50px;
-    justify-content:center ;
-}
-.form{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
     align-items: center;
     justify-content: center;
+    height: 100vh;
+} 
+.login-form{
+    width: 400px;
+    min-width: 300px;
+    border-radius: 100px;
+    border-top-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    margin: 80px;
+    height: 50%;
+    border-spacing: 10px 5px;
+
+}
+.login-form img{
+    width: 150px;
+    display: block;
+    margin: 2px 0;
+}
+.login-form label{
+    color: var(--blanco);
+    font-size: 30px;
+}
+.login-form input{
+    display: block;
+    margin: auto;
+    height: 70px;
+    width: 80%;
+    padding-left: 40px;
+    color: var(--blanco);
+    border: 3px solid;
+}.login-form input[type="password"]{
+    margin-top: 20px;
+}
+.login-form input[type="submit"]{
+    margin-top: 5px;
+
+}
+.login-form button{
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    height: 40px;
+    width: 78%;
+    background-color: #000;
 }
