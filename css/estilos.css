@@ -186,6 +186,33 @@ nav{
     margin: 0 20% 0 20%;
     height: 0.1px;
 }
+#usuarios{
+    color: var(--blanco);
+}
+
+#usuario{
+        width: 20%;
+        min-width: 150px;
+        max-width: 300px;
+        min-height: 100px;
+        max-height: 250px;
+        margin: 0.8rem;
+        padding: 0.8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+}
+
+ #usuarios h2{
+    background-color: var(--negro);
+    width: 100%;
+    text-align: center;
+    font-size: 2.5em;
+    padding: 1.5rem 1.5rem 5rem 1.5rem;
+ }
+
 
  /* Resolucion Tablet*/
  @media screen and (min-width: 768px) {}
