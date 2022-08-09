@@ -186,36 +186,85 @@ nav{
     margin: 0 20% 0 20%;
     height: 0.1px;
 }
-#usuarios{
+/*op*/
+#opinion{
     color: var(--blanco);
-}
-
-#usuario{
-        width: 20%;
-        min-width: 150px;
-        max-width: 300px;
-        min-height: 100px;
-        max-height: 250px;
-        margin: 0.8rem;
-        padding: 0.8rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border-radius: 3px;
-}
-
- #usuarios h2{
-    background-color: var(--negro);
-    width: 100%;
     text-align: center;
-    font-size: 2.5em;
-    padding: 1.5rem 1.5rem 5rem 1.5rem;
- }
+    height: 300px;
+}
+#opinion h2{
+    padding: 2rem 1rem;
+    background-color: var(--negro2);
+    height: 120px;
+    font-size: 2em;
+}
+.im{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50%;
+    width: 30%;
+    margin-top: -1%;
+    padding: 0rem 1rem;
+    float: left;
+}
+.text{
+    margin-top: 2%;
+}
+.vect{
+    width: 243px;
+    height: 50px;
+    margin-top: 3%;
+}
 
+.container1 p{
+    text-align: center;
+    margin-top: 3%;
+}
+.container1{
+    background-image: url('../img/Group\ 200.svg');
+    background-repeat: no-repeat;
+    height: 190px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-between;
+    max-width: 350px;
+    width: 100%;
+    margin-top: -3%;
+ 
+}
+.op-banner{
+    display: flex;
+    flex-direction: row;
+
+    margin-bottom: 2rem;
+    height: 400px;
+    justify-content: space-between;
+    align-content: space-between;
+   
+}
+.op-banner img{
+    padding: 0 1rem;
+    max-height: 350px;
+    max-width: 350px;
+   
+}
+
+.op-banner p{
+    padding: 0 1rem;
+    max-height: 350px;
+    max-width: 350px;
+   
+}
 
  /* Resolucion Tablet*/
- @media screen and (min-width: 768px) {}
+ @media screen and (min-width: 768px) {
+
+ }
 
  /*Resolución resoluciones medias*/
  @media screen and (min-width:1024px) {
@@ -227,4 +276,5 @@ nav{
          background-color: var(--negro2);
          align-items: center;
      }
+     
 }
