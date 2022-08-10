@@ -2,84 +2,174 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/dashboard.css">
-    <script src="https://kit.fontawesome.com/6131ecdde6.js"  crossorigin="anonymous"></script>
-    <title>Dashboard</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/dashboard.css">
+        <link rel="icon" type="image/x-icon" href="img/hotelia campana.svg">
+        <script src="https://kit.fontawesome.com/6131ecdde6.js" crossorigin="anonymous"></script>
+    <title>Registro</title>
 </head>
-<body>
-    <div id="container-grid">
 
-     <nav>
-        <div class="menu">
-        <div class="sec1">
-            <img class="imgn" src="img/hotelia campana.svg" alt="">
-             <p class="tittle"><img src="img/hotelia campana.svg" alt="">otelia</p>
-            <img class="imga" src="img/dash.jpg" alt="">
-            <p class="re">Angie Vargas</p><p class="re2">angievargas2@gmail.com</p>
-        </div>
+<body id="body">
 
-        <div class="sec2">
-            <i class="fa-solid fa-bed"></i><p>Habitaciones</p>
-            <i class="fa-solid fa-bell-concierge"></i><p>Reservas</p>
-            <i class="fa-solid fa-bed"></i><p>Habitaciones</p>
-            <i class="fa-solid fa-bell-concierge"></i><p>Reservas</p>
-        </div>
-
-        <div class="sec3">
-            <p><i class="fa-solid fa-bed"></i>Habitaciones</p>
-            <p><i class="fa-solid fa-bell-concierge"></i>Reservas</p>
-            <p><i class="fa-solid fa-bed"></i>Habitaciones</p>
-            <p><i class="fa-solid fa-bell-concierge"></i>Reservas</p>
-        </div>
-        <div class="exit">
-            <p><i class="fa-solid fa-arrow-right-from-bracket"></i>Cerrar Sesión</p>
-        </div>
-
-    </div>
-    </nav>   
-
-    <form action="" method="post" id="form">
-        
-        <h2 class="">Bienvenido, Angie Vargas</h2>
-        <img src="img/dash.jpg" alt="">
-        <i class="fa-solid fa-image-user"></i>
-        <label for="" class="cpas"><a href="#" class="item"> <button class="navbar-button">Cambiar Contraseña</button></a></label>
+    <section class="dashboard">
 
 
-        <label for="" >Tipo de Documento  <input type="text"></label>
-        <label >Nombres <input type="text"></label>
-        <label >Fecha nacimiento <input type="date"></label>
-       <center>
-        <p>  <label for=""> Género</p> 
-            <div class="genero">
-                <br>
-                <input type="radio"  name="genero" value="Mujer"> Mujer
-                <input type="radio" name="genero" value="Hombre"> Hombre
-                <input type="radio" name="genero" value="Otro"> Otro
+        <div class="menu_side" id="menu_side">
+
+            <div class="logos">
+                <div class="logo">
+                    <img class="logo-1" id="logo-1" src="img/hotelia campana.svg"><span id="tex"></span>
+                    <img class="logo-2" src="img/Angie.jpg">
+                    <a>Angie Vargas</a>
+                    <a>angievargas2@gmail.com</a>
+
+                </div>
             </div>
-         </label>
-        </center>
-        <label for="Email" >Email <input type="email" name="" id=""></label>
 
-        <label for="">Número de documento <input type="number"> </label>
+            <div class="options_menu">
+                <a href="#" class="seleccion">
+                    <div class="opcion">
+                        <i class="fas fa-bed" title="Habitaciones"></i>
+                        <h6>Habitaciones</h6>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="opcion">
+                        <i class="fas fa-bell-concierge" title="Reservas"></i>
+                        <h6>Reservas</h6>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="opcion">
+                        <i class="fas fa-bed" title="Habitaciones"></i>
+                        <h6>Habitaciones</h6>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="opcion">
+                        <i class="fas fa-bell-concierge" title="Reservas"></i>
+                        <h6>Reservas</h6>
+                    </div>
+                </a>
+                <a href="index.html">
+                    <div class="opcion" id="exit">
+                        <i class="fas fa-arrow-right-from-bracket"></i>
+                        <h6>Cerrar sesión</h6>
+                    </div>
+                </a>
+            </div>
 
-        <label for="" >Apellidos <input type="text"> </label>
-
-        <label for="">País de origen <input type="text"></label>
-
-        <label for="" >Teléfono de contacto <input type="text"> </label>
-    
-        <label for=""><a href="login.html" class="item"><button class="navbar-button">Actualizar</button></a></label>
-
-        <label for="">Contraseña <input type="password"></label>
-        <label for="">Confirmar contraseña <input type="password"></label>
-
-        <label for=""><a href="#" class="item"> <button class="navbar-button">Cambiar</button></a></label>
+        </div>
 
 
-    </form>
-    </div>
+
+        </div>
+        </div>
+
+    </section>
+
+    <section class="formulario">
+
+        <div class="form">
+
+
+            <h2 class="titulo">Bienvenido, Angie Vargas</h2>
+
+
+            <div class="column-1">
+                <div class="profile">
+                    <img src="img/Angie.jpg">
+                    <button class="button" id="boton">Cambiar Contraseña</button>
+                </div>
+            </div>
+
+            <div class="column-2">
+                <div class="form-group">
+                    <label for="TipoDoc">Tipo de documento</label>
+                    <input type="text" class="form-control" placeholder="Cedula de Ciudadania">
+                </div>
+
+                <div class="form-group">
+                    <label for="Nombre">Nombres</label>
+                    <input type="text" class="form-control" placeholder="Angie Camila">
+                </div>
+
+                <div class="form-group">
+                    <label for="fecha">Fecha nacimiento</label>
+                    <input type="date" class="form-control" placeholder="10/08/1976">
+                </div>
+
+                <div class="form-check">
+                    <h6>Género</h6>
+                    <div class="genero">
+                        <form class="checks">
+                            <label class="radio-inline">
+                                <input type="radio" value="" name="genero" checked>Mujer
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" value="" name="genero">Hombre
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" value="" name="genero">Otro
+                            </label>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" placeholder="angievargas2@gmail.com">
+                </div>
+
+            </div>
+
+            <div class="column-3">
+                <div class="form-group">
+                    <label for="NoDoc">Numero de documento</label>
+                    <input type="text" class="form-control" placeholder="1025417456">
+                </div>
+
+                <div class="form-group">
+                    <label for="Apellido">Apellidos</label>
+                    <input type="text" class="form-control" placeholder="Vargas Pinzón">
+                </div>
+
+                <div class="form-group">
+                    <label for="Pais">País de origen</label>
+                    <input type="text" class="form-control" placeholder="Colombia">
+                </div>
+
+                <div class="form-group">
+                    <label for="telefono">Teléfono de contacto</label>
+                    <input type="text" class="form-control" placeholder="3135207460">
+                </div>
+            </div>
+
+            <div class="footer">
+                <button class="button">Actualizar</button>
+
+                <br><br>
+
+                <div class="contraseñas">
+                    <div class="contraseña">
+                        <label for="">Contraseña</label>
+                        <input type="password" class="form-control">
+                    </div>
+
+                    <div class="confirmar">
+                        <label for="">Confirmar contraseña</label>
+                        <input type="password" class="form-control">
+                    </div>
+                </div>
+                <button class="button">Cambiar</button>
+
+            </div>
+        </div>
+
+        </div>
+    </section>
+    <script src="js/script.js"></script>
 </body>
 </html>
